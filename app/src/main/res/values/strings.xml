@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Registrese o Inicie Sesión</string>
+    <string name="nombre">Nombre</string>
+    <string name="salir">Salir</string>
+    <string name="guardar">Guardar</string>
+    <string name="apellido">Apellido</string>
+    <string name="direeccion">Direccion</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">E-mail</string>
+    <string name="sexo">Seleccione su Sexo</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="logotipoempresa">Logo Empresa</string>
+    <string name="iusuario">Ingrese Usuario</string>
+    <string name="iconrtraseña">Ingrese Contraseña</string>
+    <string name="isesion">Inicie Sesion</string>
+    <string name="bregistrese">Registrese</string>
+    <string name="cargando">Cargando....</string>
+    <string name="logoandroid">Logo Android</string>
+    <string name="rusuario">Registre Usuario</string>
+    <string name="rclave">Registre clave</string>
+
+</resources>
