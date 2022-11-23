@@ -28,7 +28,18 @@ public class InicioSesion extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext() , "Has pulsado Login", Toast.LENGTH_SHORT).show();
+                String usu = usuario.getText().toString();
+                String pass = clave.getText().toString();
+                if (usu.equals("jac") && pass.equals("IUD")){
+                    Toast.makeText(getApplicationContext() , "Bienvenido a la App", Toast.LENGTH_SHORT).show();
+                    Intent i = new Intent(InicioSesion.this, MainActivity.class);
+                    i.putExtra("usuario", usu);
+                    i.putExtra("clave", pass);
+                    startActivity(i);
+                }else {
+                    Toast.makeText(getApplicationContext() , "Usuario o Contraseñas errados", Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
 
